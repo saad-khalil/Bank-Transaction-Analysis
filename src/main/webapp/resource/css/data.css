@@ -1,0 +1,188 @@
+body {
+    font-family: Roboto, sans-serif;
+    overflow: hidden;
+}
+
+hr {
+    visibility: hidden;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #FCBA3D;
+    border-radius: 14px;
+    flex-shrink: 1;
+    letter-spacing: 0px;
+    line-height: normal;
+    text-align: center;
+    cursor: pointer;
+    color: #F1F1F1;
+    border: none;
+    line-height: 1.3em;
+    font-size: 1.2em;
+    padding: 10px 5px;
+}
+
+.table-div {
+    overflow-x: auto;
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    width: 90%;
+
+}
+
+#data-table {
+    position: fixed;
+    left: 8px;
+    height: 75%;
+    top: 130px;
+
+}
+
+
+#file-table {
+    position: fixed;
+    left: 8px;
+    height: 7%;
+    bottom: 0;
+}
+
+
+/*.table-div::-webkit-scrollbar {*/
+/*  	width: 0px;*/
+/*}*/
+
+
+.table-div::-webkit-scrollbar {
+    width: 6px;
+    background-color: #ffffff;
+}
+
+.table-div::-webkit-scrollbar-thumb {
+    background-color: #fcba3d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 4px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: #fcba3d;
+    z-index: 100;
+    color: white;
+}
+
+tbody:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.selected {
+    color: #2a99ff;
+}
+
+.collapsed-table td {
+    border-bottom: none;
+}
+
+
+#stats {
+    cursor: pointer;
+    position: fixed;
+    bottom: 1%;
+    left: 91%;
+    width: 8%;
+    text-align: center;
+    margin: auto;
+}
+
+#stats:hover {
+    filter: saturate(300%);
+}
+
+#stats img {
+    width: 100px;
+}
+
+#filter-table {
+    overflow: hidden;
+    position: fixed;
+    top: 130px;
+    left: 91%;
+    width: 8%;
+    text-align: left;
+}
+
+#filter-table input {
+    width: 80%;
+}
+
+#filter-table button {
+    width: 100%;
+}
+
+
+#filter-lable {
+    text-align: left;
+}
+
+
+.risk {
+    font-family: Roboto, sans-serif;
+    height: 20px;
+    width: 20px;
+}
+
+.img-wrapper {
+    position: relative;
+}
+
+.hovershow {
+    position: absolute;
+    display: none;
+    top: -20%;
+    left: 28px;
+    background-color: #FCBA3D;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 0.5em;
+    z-index: 1;
+    font-size: 11px;
+}
+
+.risk:hover + .hovershow {
+    display: block;
+}
+
+#loading-bar .bar {
+    background: #2c3e50;
+}
+
+#loading-bar-spinner .spinner-icon {
+    border-top-color: #2c3e50;
+    border-left-color: #2c3e50;
+}
+
+#loading-bar .peg {
+    -moz-box-shadow: #2c3e50 1px 0 6px 1px;
+    -ms-box-shadow: #2c3e50 1px 0 6px 1px;
+    -webkit-box-shadow: #2c3e50 1px 0 6px 1px;
+    box-shadow: #2c3e50 1px 0 6px 1px;
+}

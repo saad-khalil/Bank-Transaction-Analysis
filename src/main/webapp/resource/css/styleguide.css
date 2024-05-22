@@ -1,0 +1,108 @@
+:root {
+    --black: #000000;
+    --cello: #113559;
+    --crimson: #dd0244;
+    --delta: #a3a3a3;
+    --dodger-blue: #2a99ff;
+    --seashell: #f1f1f1;
+    --slimy-green: #0eb600;
+    --white: #ffffff;
+    --yellow-orange: #fcba3d;
+
+    --font-size-l: 34px;
+    --font-size-m: 24px;
+    --font-size-s: 18px;
+    --font-size-xs: 10px;
+
+    --font-family-roboto: "Roboto", Helvetica;
+    --font-family-roboto_slab: "Roboto Slab", Helvetica;
+    --font-family-work_sans: "Work Sans", Helvetica;
+}
+
+.roboto-normal-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.roboto-bold-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.roboto-normal-delta-10px {
+    color: var(--delta);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.roboto-normal-black-24px-2 {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-style: italic;
+    font-weight: 400;
+}
+
+.roboto-normal-slimy-green-24px {
+    color: var(--slimy-green);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.roboto-normal-dodger-blue-24px {
+    color: var(--dodger-blue);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.roboto-bold-seashell-18px {
+    color: var(--seashell);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.roboto-normal-black-18px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.worksans-bold-black-34px {
+    color: var(--black);
+    font-family: var(--font-family-work_sans);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.robotoslab-normal-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-roboto_slab);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.border-1px-cello {
+    border: 1px solid var(--cello);
+}
+
+.border-1px-yellow-orange {
+    border: 1px solid var(--yellow-orange);
+}

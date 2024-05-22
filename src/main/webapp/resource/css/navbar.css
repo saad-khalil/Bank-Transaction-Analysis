@@ -1,0 +1,71 @@
+#navbar {
+    display: block;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 2px solid black;
+    font-family: Roboto, sans-serif;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+
+#navbar #bta-logo {
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    overflow: auto;
+    margin: 10px 10px;
+}
+
+#navbar figure {
+    float: right;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    /*overflow: auto;*/
+    cursor: pointer;
+    margin: 10px 10px;
+
+
+}
+
+#navbar figure:hover {
+    filter: saturate(300%);
+}
+
+#navbar img {
+    vertical-align: middle;
+    height: 58px;
+}
+
+#navbar #bta-logo {
+    height: 78px;
+}
+
+.main {
+    margin-top: 130px;
+}
+
+#loading-bar .bar {
+    background: #2c3e50;
+}
+
+#loading-bar-spinner .spinner-icon {
+    border-top-color: #2c3e50;
+    border-left-color: #2c3e50;
+}
+
+#loading-bar .peg {
+    -moz-box-shadow: #2c3e50 1px 0 6px 1px;
+    -ms-box-shadow: #2c3e50 1px 0 6px 1px;
+    -webkit-box-shadow: #2c3e50 1px 0 6px 1px;
+    box-shadow: #2c3e50 1px 0 6px 1px;
+}

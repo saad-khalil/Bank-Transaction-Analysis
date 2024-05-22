@@ -1,0 +1,153 @@
+body {
+    font-family: Roboto, sans-serif;
+    overflow: hidden;
+}
+
+hr {
+    visibility: hidden;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #FCBA3D;
+    border-radius: 14px;
+    flex-shrink: 1;
+    letter-spacing: 0px;
+    line-height: normal;
+    text-align: center;
+    cursor: pointer;
+    color: #F1F1F1;
+    border: none;
+    line-height: 1.3em;
+    font-size: 1.2em;
+    padding: 10px 5px;
+}
+
+.table-div {
+    overflow-x: auto;
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    width: 90%;
+
+}
+
+#stats-table {
+    position: fixed;
+    left: 8px;
+    height: 30%;
+    top: 130px;
+}
+
+.general-data {
+    position: fixed;
+    left: 8px;
+    height: 10%;
+    bottom: 0;
+}
+
+.charts {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    left: 8px;
+    width: 90%;
+    top: calc(130px + 30% + 5px);
+    height: 45%;
+
+}
+
+.charts > * {
+    text-align: center;
+    flex-basis: 100%;
+}
+
+.balance-chart h1 {
+    font-family: Roboto, sans-serif;
+}
+
+.chart {
+    display: flex;
+    justify-content: center;
+    height: 90%;
+}
+
+.table-div::-webkit-scrollbar {
+    width: 0px;
+}
+
+.table-div::-webkit-scrollbar-thumb {
+    background-color: #fcba3d;
+}
+
+table {
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: #fcba3d;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.selected {
+    color: #2a99ff;
+}
+
+#filter-table {
+    overflow: hidden;
+    position: fixed;
+    top: 130px;
+    left: 91%;
+    width: 8%;
+    text-align: left;
+}
+
+#filter-table input {
+    width: 90%;
+    text-align: center;
+}
+
+#filter-table button {
+    width: 100%;
+}
+
+#filter-lable {
+    text-align: left;
+}
+
+#data {
+    cursor: pointer;
+    position: fixed;
+    bottom: 1%;
+    left: 91%;
+    width: 8%;
+    text-align: center;
+    margin: auto;
+}
+
+#data:hover {
+    filter: saturate(300%);
+}
+
+#data img {
+    width: 100px;
+}
+

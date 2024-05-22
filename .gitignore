@@ -1,0 +1,10 @@
+/target/
+.classpath
+.project
+.settings/
+target/*
+target/BTA.war
+target/BTA.war
+target/BTA.war
+target/BTA.war
+.idea

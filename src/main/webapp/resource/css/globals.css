@@ -1,0 +1,38 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,400italic|Work+Sans:700|Roboto+Slab:400");
+
+* {
+    box-sizing: border-box;
+}
+
+.align-self-flex-end {
+    align-self: flex-end;
+}
+
+.align-self-flex-start {
+    align-self: flex-start;
+}
+
+.container-center-horizontal {
+    pointer-events: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-center-horizontal > * {
+    pointer-events: auto;
+    flex-shrink: 0;
+}
+
+.screen a {
+    text-decoration: none;
+    display: contents;
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
