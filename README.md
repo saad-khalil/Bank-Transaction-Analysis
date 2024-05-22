@@ -31,19 +31,19 @@ You can test our tool [here](https://topicus-bank4.paas.hosted-by-previder.com/B
 
 ### Use Case Diagram
 
-The use case diagram in both [utml](https://github.com/CaptainPlague/BTA-MOD4Proj/blob/master/design/UseCaseDiagram.utml) and [png](https://github.com/CaptainPlague/BTA-MOD4Proj/blob/master/design/UseCaseDiagram.png) formats.
+The use case diagram in both [utml](https://github.com/saad-khalil/Bank-Transaction-Analysis/blob/master/design/UseCaseDiagram.utml) and [png](https://github.com/saad-khalil/Bank-Transaction-Analysis/blob/master/design/UseCaseDiagram.png) formats.
 
 <img src="https://user-images.githubusercontent.com/73529539/123558208-53258980-d795-11eb-99c3-1f2e3c5ec272.png" width="45%"></img>
 
 ### Class Diagram
 
-The class diagram in both [utml](https://github.com/CaptainPlague/BTA-MOD4Proj/blob/master/design/BTA_Class_Diagram.utml) and [png](https://github.com/CaptainPlague/BTA-MOD4Proj/blob/master/design/Class%20Diagram%20Final.png) formats.
+The class diagram in both [utml](https://github.com/saad-khalil/Bank-Transaction-Analysis/blob/master/design/BTA_Class_Diagram.utml) and [png](https://github.com/saad-khalil/Bank-Transaction-Analysis/blob/master/design/Class%20Diagram%20Final.png) formats.
 
 <img src="https://user-images.githubusercontent.com/73529539/123558428-7ac92180-d796-11eb-825b-61f6a525af22.png" width="100%"></img>
 
 ### User Story Mapping Framework
 
-The user story mapping framework is [here](https://github.com/CaptainPlague/BTA-MOD4Proj/blob/master/design/User%20Story%20Mapping%20Framework.pdf).
+The user story mapping framework is [here](https://github.com/saad-khalil/Bank-Transaction-Analysis/blob/master/design/User%20Story%20Mapping%20Framework.pdf).
 
 <img src="https://user-images.githubusercontent.com/73529539/123559552-fcbc4900-d79c-11eb-87d9-6ea2179b4d15.png" width="90%"></img>
 
@@ -51,20 +51,20 @@ The user story mapping framework is [here](https://github.com/CaptainPlague/BTA-
 
 You can playthrough the prototype [here](https://www.figma.com/proto/YMI7CVcsTG4SqpzqGUJkTo/BANK-TRANSACTION-ANALYSIS?node-id=1%3A2&scaling=scale-down&page-id=0%3A1).
 
-The prototype is also available in [pdf](https://github.com/CaptainPlague/BTA-MOD4Proj/blob/master/design/Prototype.pdf).
+The prototype is also available in [pdf](https://github.com/saad-khalil/Bank-Transaction-Analysis/blob/master/design/Prototype.pdf).
 
 <img src="https://user-images.githubusercontent.com/73529539/123559607-5a509580-d79d-11eb-85ba-c79bfdcb28de.png" width="23%"></img><img src="https://user-images.githubusercontent.com/73529539/123559609-5cb2ef80-d79d-11eb-9f05-e956fc52ea6a.png" width="23%"></img><img src="https://user-images.githubusercontent.com/73529539/123559610-5fade000-d79d-11eb-9618-1127bd7f4b5b.png" width="23%"></img><img src="https://user-images.githubusercontent.com/73529539/123559612-6177a380-d79d-11eb-9daf-34cb7cc2f1f4.png" width="23%"></img><img src="https://user-images.githubusercontent.com/73529539/123559613-63416700-d79d-11eb-8755-236732ae97f1.png" width="23%"></img><img src="https://user-images.githubusercontent.com/73529539/123559615-650b2a80-d79d-11eb-9225-407f13762aba.png" width="23%"></img><img src="https://user-images.githubusercontent.com/73529539/123559616-66d4ee00-d79d-11eb-84e5-b5c800a5df5d.png" width="23%"></img><img src="https://user-images.githubusercontent.com/73529539/123559619-689eb180-d79d-11eb-8061-4ececf2cd0ba.png" width="23%"></img>
 
 ## Project Proposal
 
-The project proposal can be found [here](https://github.com/CaptainPlague/BTA-MOD4Proj/blob/master/documents/Project%20Proposal%20(Topicus%20-%20Bank%20transaction%20analysis).pdf).
+The project proposal can be found [here](https://github.com/saad-khalil/Bank-Transaction-Analysis/blob/master/documents/Project%20Proposal%20(Topicus%20-%20Bank%20transaction%20analysis).pdf).
 
 ## Reports
 
 ### Security Report
 
-The security report can be found [here](https://github.com/CaptainPlague/BTA-MOD4Proj/blob/master/documents/Security_report.pdf).
+The security report can be found [here](https://github.com/saad-khalil/Bank-Transaction-Analysis/blob/master/documents/Security_report.pdf).
 
 ### Testing Report
 
-The testing report can be found [here](https://github.com/CaptainPlague/BTA-MOD4Proj/blob/master/documents/Testing_Report.pdf).
+The testing report can be found [here](https://github.com/saad-khalil/Bank-Transaction-Analysis/blob/master/documents/Testing_Report.pdf).
